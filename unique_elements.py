@@ -1,8 +1,8 @@
 n=int(input())
-l=list(map(int,input().split()))
-lst=[]
-for i in l:
-    if i not in lst:
-        lst.append(i)
+lst=list(map(int,input().split()))
+l1=[]
 for i in lst:
+    if i not in l1:
+        l1.append(i)
+for i in l1:
     print(i,end=' ')
