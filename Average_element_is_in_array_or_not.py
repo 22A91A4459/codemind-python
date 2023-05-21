@@ -1,11 +1,12 @@
 n=int(input())
-k=0
 lst=list(map(int,input().split()))
-c=sum(lst)//n
+c=0
+k=sum(lst)
+a=k//n
 for i in lst:
-    if c==i:
-        k=1
-if k==1:
+    if i==a:
+        c=1
+if c==1:
     print("True")
 else:
     print("False")
